@@ -12,9 +12,11 @@ public class chrometest {
 ////		System.out.println(driver.getPageSource());
 //		driver.get("https://www.guru99.com/");
 //		driver.navigate().back();
-		driver.get("http://globaleducation.net.in/");
-		driver.findElement(By.id("name")).sendKeys("mobin");
-		
+		driver.get("https://gitlab.com/users/sign_in");
+		driver.findElement(By.id("user_login")).sendKeys("mobinfrancis");
+		driver.findElement(By.id("user_password")).sendKeys("Kristujayanti1");
+		//driver.findElement(By.name("commit")).click();
+		driver.findElement(By.xpath("//*[@id=\'new_user\']/div[5]/input"));
 
 	}
 
