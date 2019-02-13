@@ -25,6 +25,7 @@ public class AutoSuggestiveDropdowns {
 		destination.sendKeys(Keys.ARROW_DOWN);
 		destination.sendKeys(Keys.ENTER);
 		
+		
 
 	}
 
