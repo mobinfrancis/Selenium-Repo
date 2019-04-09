@@ -23,7 +23,7 @@ public class CheckboxAndTextVerification {
 		s.selectByValue(cbValue);
 		//Entering the value to text box
 		driver.findElement(By.id("name")).sendKeys(cbValue);
-		//Clicking on Alert
+		//Clicking on Alert  
 		driver.findElement(By.id("alertbtn")).click();
 		//Verification 
 		String alertMsg=driver.switchTo().alert().getText();
