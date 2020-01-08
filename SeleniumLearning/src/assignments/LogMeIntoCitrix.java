@@ -12,8 +12,8 @@ public class LogMeIntoCitrix {
 		driver.get("https://archway.riotinto.org/vpn/index.html");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.findElement(By.xpath("//input[@id='Enter user name']	")).sendKeys("mobin.francis");
-		driver.findElement(By.xpath("//input[@title='Enter password']")).sendKeys("Spicegarden2019@");
+		driver.findElement(By.xpath("//input[@id='Enter user name']	")).sendKeys("*******");
+		driver.findElement(By.xpath("//input[@title='Enter password']")).sendKeys("*******");
 		driver.findElement(By.cssSelector("#Log_On")).click();
 		Thread.sleep(5000L);
 		driver.findElement(By.id("skipWizardLink")).click();
