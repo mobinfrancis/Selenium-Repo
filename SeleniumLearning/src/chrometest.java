@@ -14,7 +14,7 @@ public class chrometest {
 //		driver.navigate().back();
 		driver.get("https://gitlab.com/users/sign_in");
 		driver.findElement(By.id("user_login")).sendKeys("mobinfrancis");
-		driver.findElement(By.id("user_password")).sendKeys("Kristujayanti1");
+		driver.findElement(By.id("user_password")).sendKeys("*******");
 		//driver.findElement(By.name("commit")).click();
 		driver.findElement(By.xpath("//*[@id=\'new_user\']/div[5]/input"));
 
