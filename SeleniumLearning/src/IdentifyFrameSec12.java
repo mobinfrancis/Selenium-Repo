@@ -14,7 +14,7 @@ public class IdentifyFrameSec12 {
 		{
 			driver.switchTo().frame(i);
 			driver.findElement(By.id("recaptcha-anchor")).click();
-			driver.findElement(By.)
+			//driver.findElement(By.)
 		}
 //		driver.switchTo().frame((WebElement) By.name("a-apnrexyzn43t"));
 //		
